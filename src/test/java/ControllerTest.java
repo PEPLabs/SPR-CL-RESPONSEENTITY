@@ -13,7 +13,7 @@ public class ControllerTest {
         Controller controller = new Controller();
         ResponseEntity response = controller.lab1();
         assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
-        assertEquals("Bad Request!", response.getBody());
+        assertEquals("Bad Request", response.getBody());
     }
 
     @Test
