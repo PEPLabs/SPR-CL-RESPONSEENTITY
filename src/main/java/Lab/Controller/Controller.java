@@ -35,7 +35,7 @@ public class Controller {
     }
     /**
      * TODO: return a ResponseEntity containing a response of type "Bad Request", as well as a String in the body
-     * that says "Bad Request!"
+     * that says "Bad Request"
      */
     @GetMapping("/lab1")
     public ResponseEntity lab1(){
