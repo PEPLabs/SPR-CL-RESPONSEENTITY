@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ControllerTest.java",
+      "testCases": [
+        {
+          "methodName": "testLab1",
+          "label": "Verify lab1 endpoint returns BAD_REQUEST response",
+          "description": "Checks that the lab1 controller method returns a BAD_REQUEST status and the expected response body when invoked with no input."
+        },
+        {
+          "methodName": "testLab2",
+          "label": "Verify lab2 endpoint returns CREATED and echoes the Sample object",
+          "description": "Ensures that the lab2 controller method returns a CREATED status, returns the provided Sample object in the response body, and sets the content-length header to '100'."
+        }
+      ]
+    }
+  ]
+}
